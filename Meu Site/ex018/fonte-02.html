@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Siempre';
+            src: url('Fontes/Por Siempre Gótica.ttf') format('truetype');
+            font-weight:normal;
+            font-style: normal;
+        }
+        /* 
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opent
+        - truetpye-aat (Apple advanced Typorgraphy)
+        -svg */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'Siempre', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci similique vel assumenda amet rem? Et quia veniam dolorum necessitatibus at deleniti repudiandae, magni illo animi consequuntur, iure reiciendis error nulla.</p>
+</body>
+</html>
