@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead {
+            background-color: grey;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    <!-- 
+        ANATOMIA PARA TABELAS GRANDES
+        Caption = legenda da tabela
+            THEAD
+                TR,TD,TH
+            TBODY
+                TR,TD,TH
+            TFOOT
+                TR,TD,TH
+     -->
+     <table>
+        <caption>Rank dos maiores pontuadores da NBA</caption>
+        <thead>
+            <tr>
+                <th scope="col">Jogador</th>
+                <th scope="col" style="width: 50px;">Pontos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lebron James</td>
+                <td class="num">39.078</td>
+            </tr>
+            <tr>
+                <td>Kareen Abdul-Jabbar</td>
+                <td class="num">38.387</td>
+            </tr>
+            <tr>
+                <td>Karl Malone</td>
+                <td class="num">36.928</td>
+            </tr>
+            <tr>
+                <td>Kobe Bryant</td>
+                <td class="num">33.643</td>
+            </tr>
+            <tr>
+                <td>Michael Jordan</td>
+                <td class="num">32.292</td>
+            </tr>
+            <tr>
+                <td>Dirk Nowitski</td>
+                <td class="num">31.560</td>
+            </tr>
+            <tr>
+                <td>Wilt Chamberlain</td>
+                <td class="num">31.419</td>
+            </tr>
+            <tr>
+                <td>Shaquille O’Neal</td>
+                <td class="num">28.596</td>
+            </tr>
+            <tr>
+                <td>Carmelo Anthony</td>
+                <td class="num">28.289</td>
+            </tr>
+            <tr>
+                <td>Moses Malone</td>
+                <td class="num">27.409</td>
+            </tr>
+        </tbody>
+     </table>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur aut dolores voluptas totam suscipit? Reiciendis perspiciatis quas cumque aliquam, repudiandae quisquam harum, nisi, modi iusto libero quia cum vel obcaecati? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate officiis dolore assumenda totam enim vitae quidem. Vero, assumenda porro. Hic, velit at ipsam doloremque quo numquam maxime magni porro itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis beatae dolorem et. Dignissimos saepe vel non neque asperiores tempora amet vitae minus. Nisi ipsum nobis quam autem, impedit aliquam!</p>
+
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur aut dolores voluptas totam suscipit? Reiciendis perspiciatis quas cumque aliquam, repudiandae quisquam harum, nisi, modi iusto libero quia cum vel obcaecati? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate officiis dolore assumenda totam enim vitae quidem. Vero, assumenda porro. Hic, velit at ipsam doloremque quo numquam maxime magni porro itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis beatae dolorem et. Dignissimos saepe vel non neque asperiores tempora amet vitae minus. Nisi ipsum nobis quam autem, impedit aliquam!</p>
+
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur aut dolores voluptas totam suscipit? Reiciendis perspiciatis quas cumque aliquam, repudiandae quisquam harum, nisi, modi iusto libero quia cum vel obcaecati? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate officiis dolore assumenda totam enim vitae quidem. Vero, assumenda porro. Hic, velit at ipsam doloremque quo numquam maxime magni porro itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis beatae dolorem et. Dignissimos saepe vel non neque asperiores tempora amet vitae minus. Nisi ipsum nobis quam autem, impedit aliquam!</p>
+
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur aut dolores voluptas totam suscipit? Reiciendis perspiciatis quas cumque aliquam, repudiandae quisquam harum, nisi, modi iusto libero quia cum vel obcaecati? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate officiis dolore assumenda totam enim vitae quidem. Vero, assumenda porro. Hic, velit at ipsam doloremque quo numquam maxime magni porro itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis beatae dolorem et. Dignissimos saepe vel non neque asperiores tempora amet vitae minus. Nisi ipsum nobis quam autem, impedit aliquam!</p>
+
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur aut dolores voluptas totam suscipit? Reiciendis perspiciatis quas cumque aliquam, repudiandae quisquam harum, nisi, modi iusto libero quia cum vel obcaecati? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate officiis dolore assumenda totam enim vitae quidem. Vero, assumenda porro. Hic, velit at ipsam doloremque quo numquam maxime magni porro itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis beatae dolorem et. Dignissimos saepe vel non neque asperiores tempora amet vitae minus. Nisi ipsum nobis quam autem, impedit aliquam!</p>
+
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur aut dolores voluptas totam suscipit? Reiciendis perspiciatis quas cumque aliquam, repudiandae quisquam harum, nisi, modi iusto libero quia cum vel obcaecati? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate officiis dolore assumenda totam enim vitae quidem. Vero, assumenda porro. Hic, velit at ipsam doloremque quo numquam maxime magni porro itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis beatae dolorem et. Dignissimos saepe vel non neque asperiores tempora amet vitae minus. Nisi ipsum nobis quam autem, impedit aliquam!</p>
+
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur aut dolores voluptas totam suscipit? Reiciendis perspiciatis quas cumque aliquam, repudiandae quisquam harum, nisi, modi iusto libero quia cum vel obcaecati? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate officiis dolore assumenda totam enim vitae quidem. Vero, assumenda porro. Hic, velit at ipsam doloremque quo numquam maxime magni porro itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis beatae dolorem et. Dignissimos saepe vel non neque asperiores tempora amet vitae minus. Nisi ipsum nobis quam autem, impedit aliquam!</p>
+
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur aut dolores voluptas totam suscipit? Reiciendis perspiciatis quas cumque aliquam, repudiandae quisquam harum, nisi, modi iusto libero quia cum vel obcaecati? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate officiis dolore assumenda totam enim vitae quidem. Vero, assumenda porro. Hic, velit at ipsam doloremque quo numquam maxime magni porro itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officiis beatae dolorem et. Dignissimos saepe vel non neque asperiores tempora amet vitae minus. Nisi ipsum nobis quam autem, impedit aliquam!</p>
+</body>
+</html>

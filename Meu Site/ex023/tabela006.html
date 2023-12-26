@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Responsiva</title>
+    <style>
+           body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead {
+            background-color: grey;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        div#container {
+            overflow-x: auto;
+        }
+
+    </style>
+</head>
+<body>
+   <h1>Tabela de vendas</h1> 
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro qui asperiores amet et accusamus molestiae, dolor beatae aspernatur nam ullam in, consectetur quisquam repudiandae, perspiciatis deserunt facere commodi harum sunt!</p>
+    <div id="container">
+        <table>
+            <caption>tabelas responsivas</caption>
+            <thead>
+                <th>Produto</th>
+                <th>jan</th>
+                <th>fev</th>
+                <th>mar</th>
+                <th>abr</th>
+                <th>mai</th>
+                <th>jun</th>
+                <th>jul</th>
+                <th>ago</th>
+                <th>set</th>
+                <th>out</th>
+                <th>nov</th>
+                <th>dez</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tv led45</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Liquidificador</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Sanduicheira</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Arcodicionado</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Aspirador</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Sofá</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
